@@ -1,0 +1,59 @@
+/* Universal selector to set padding/margin to 0 and box-sizing to border-box */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container styling */
+#main {
+    background-color: rgb(153, 178, 179);
+    width: 350px;
+    padding: 20px;
+    top: 150px;
+    text-align: center;
+}
+
+/* H1 styling inside main */
+#main h1 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+/* Date field styling */
+#date-field {
+    border: 0;
+    padding: 5px;
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+}
+
+/* Button styling */
+#calculate-btn {
+    border: 0;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* Result styling */
+#result {
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+}
